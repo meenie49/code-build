@@ -12,4 +12,9 @@ phases:
       - npm run build
   post_build:
     commands:
-      - aws s3 sync ./dist s3://dev-bucket-hjm
+      - echo "Complete!"
+artifacts:
+  files:
+    - dist/**/*
+    - appspec.yml
+    - scripts/*
