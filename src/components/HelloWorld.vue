@@ -80,7 +80,7 @@
         </a>
       </li>
     </ul>
-    <h1>Jungmin 's Second Release!!</h1>
+    <h1>Jungmin 's Third Release!!</h1>
   </div>
 </template>
 
